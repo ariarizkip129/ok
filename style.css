@@ -1,0 +1,169 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #282A3A;
+}
+h1 {
+	color: white;
+	text-decoration: underline grey; 
+	position: absolute;
+ 	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+}
+.top {
+	font-size: 100%;
+	color: white;
+	position: absolute;
+ 	top: 55%;
+  	left: 50%;
+  	transform: translate(-50%, -30%);
+}
+.about {
+	text-decoration: underline grey;
+	padding: 20px;
+	font-size: 40px;
+	transform: translate(0%, 65vw);
+	color: white;
+}
+.me {
+	background-color: rgba(0,0,0,0);
+	padding: 20px;
+	color: white;
+	transform: translate(0%,61vw);
+}
+table {
+	letter-spacing: 1px;
+	border-collapse: collapse;
+	border-width: 5px;
+	color: white;
+	padding: 0px;
+	transform: translate(0%,61vw);
+}
+th { 
+	text-decoration: underline darkblue;
+	border:1px;
+	font-size: 3vw;
+	padding: 6px;
+}
+td { 
+	list-style-type: circle;
+}
+h2 {
+	text-align: center;
+	color: white;
+	transform: translate(0%,61vw);
+}
+.card: hover {
+  opacity: 1;
+}
+.card1 {
+	position: relative;
+  	display: flex;
+  	justify-content: center;
+  	align-items: flex-end;
+	transform: translate(-160%,64vw);
+  	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  	max-width: 200px;
+  	margin: auto;
+  	padding: 0 5px;
+
+}
+.card2 {
+	position: relative;
+  	display: flex;
+  	justify-content: center;
+  	align-items: flex-end;
+	transform: translate(160%,13vw);
+  	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  	max-width: 200px;
+  	margin: auto;
+  	padding: 0 5px;
+}
+.card3 {
+	position: relative;
+  	display: flex;
+  	justify-content: center;
+  	align-items: flex-end;
+	transform: translate(0%,-37vw);
+  	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  	max-width: 200px;
+  	margin: auto;
+  	padding: 0 5px;
+  }
+.btn {
+	transform: translate(0%, -35vw);
+	max-width: 100px;
+  	margin: auto;
+  	border: none;
+  	outline: 0;
+  	padding: 12px;
+  	color: white;
+  	background-color: #000;
+  	text-align: center;
+  	cursor: pointer;
+  	width: 100%;
+  	font-size: 18px;
+}
+
+.btn:hover {
+  opacity: 0.7;
+}
+h4 {
+	transform: translate(0%, -30vw);
+	text-decoration: underline grey;
+	color: white;
+	padding: 20px;
+	font-size: 40px;
+}
+.exp {
+	color: white;
+	padding: 20px;
+	transform: translate(0%, -38vw);
+}
+
+footer {
+	position: relative;
+	align-items: flex-end;
+	background-color: white;
+	color: black;
+}
+h5 {
+	text-decoration: underline grey;
+	padding: 20px;
+	font-size: 40px;
+	transform: translate(0%, -0vw);
+	color: black;
+}
+.foot {
+	transform: translate(42%, 0vw);
+	position: relative;
+	text-align: center;
+	margin: 50px;
+	width: 50%;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow: hidden; /* untuk menyembunyikan konten yang melebihi box*/
+  background-color: white;
+}
+li {
+  display: inline; /* terpenting biar horizontal */
+}
+li a {
+  display: inline-block;
+  color:white;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+li a.active {
+  background-color: #5340ff;
+  color: white;
+}
+li a:hover:not(.active) {
+  background-color: #212121;
+  color: white;
+}
